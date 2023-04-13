@@ -25,7 +25,7 @@ time.sleep(5)
 driver.find_element(By.XPATH ,"/html/body/main/div/div[2]/div[2]/div/button" ).click()
 
 time.sleep(5)
-driver.find_element(By.ID ,"IDToken2").send_keys("Agamista135#")
+driver.find_element(By.ID ,"IDToken2").send_keys("###########")
 driver.find_element(By.ID , "Button1").click()
 
 time.sleep(5)
