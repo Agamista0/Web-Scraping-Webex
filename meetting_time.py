@@ -21,11 +21,11 @@ time.sleep(5)
 driver.find_element(By.ID, 'guest_signin_split_button-action').click()
 time.sleep(5)
 
-driver.find_element(By.ID, "IDToken1").send_keys("yousef21-01715@student.eelu.edu.eg")
+driver.find_element(By.ID, "IDToken1").send_keys("**************")
 driver.find_element(By.ID, 'IDButton2').click()
 
 time.sleep(5)
-driver.find_element(By.ID ,"IDToken2").send_keys("Agamista135#")
+driver.find_element(By.ID ,"IDToken2").send_keys("************")
 driver.find_element(By.ID , "Button1").click()
 
 time.sleep(5)
